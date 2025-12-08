@@ -81,11 +81,15 @@ function predictOutcome(
     }
 }
 
+Example Test Cases
+
 console.log(predictOutcome(0.82));     // "win"
 console.log(predictOutcome(-0.77));    // "loss"
 console.log(predictOutcome(0.05));     // "draw"
 console.log(predictOutcome(0.25));     // "win" (slight edge)
 console.log(predictOutcome(-0.28));    // "loss" (slight edge)
+
+This helps learners see how threshold tuning affects model behaviour.
 
 This helps learners see how threshold tuning affects model behaviour.
 
@@ -96,6 +100,8 @@ Learners have built metrics, a rating system, and now a prediction function writ
 You can show them how TypeScript adds type safety, especially useful in UI tools or web apps.
 The lesson highlights how the same logic used in Python can be reused across languages, reinforcing transferable modelling skills.
 By adjusting thresholds, learners can see how prediction confidence changes, deepening their understanding of evaluation logic.
+
+Files in This Lesson
 
 | File                | Purpose                                                            |
 | ------------------- | ------------------------------------------------------------------ |
