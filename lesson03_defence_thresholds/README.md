@@ -81,6 +81,8 @@ def classify_defence_list(values):
         results.append(classify_defence(v))
     return results
 
+Example Test Cases
+
 print(classify_defence(0.22))   # 1  (strong)
 print(classify_defence(0.85))   # 0  (average)
 print(classify_defence(1.43))   # -1 (weak)
@@ -95,6 +97,8 @@ You would introduce this lesson as a way of simplifying defensive performance in
 You can show learners how threshold-based classification works in real analytics, then guide them through the comparisons in the function.
 Using a list of matches helps demonstrate iteration and reinforces how functions apply across datasets.
 By the end, learners understand how numeric conditions translate into labelled outcomes and how these labels feed into larger models (like the weighted rating system later in the course).
+
+Files in This Lesson
 
 | File                  | Purpose                                                                |
 | --------------------- | ---------------------------------------------------------------------- |
