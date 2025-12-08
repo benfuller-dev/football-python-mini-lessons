@@ -123,6 +123,8 @@ Because your football model already uses encoded metrics and rolling averages, i
 Learners can see how conditionals become WHERE clauses, how rolling averages become AVG(), and how JOINs combine multiple sources.
 This lesson helps them recognise how Python logic and SQL logic complement each other in real analytics workflows, preparing them for more advanced modelling.
 
+Files in This Lesson
+
 | File                 | Purpose                                            |
 | -------------------- | -------------------------------------------------- |
 | `sample_queries.sql` | Example SQL queries for common analytics tasks     |
