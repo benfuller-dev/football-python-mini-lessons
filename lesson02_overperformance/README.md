@@ -76,6 +76,7 @@ print(xg_overperformance(1, 1.05))   # 0 -> equal
 print(xg_overperformance(0, 0.8))    # -1 -> underperformed
 
 How You Would Teach This
+
 This function converts a football performance concept into a simple classification model.
 We use tolerance to avoid mislabeling small differences as meaningful.
 The function returns clean numeric categories (-1, 0, 1) which can be used in further modelling, rolling averages, and weighted rating systems.
