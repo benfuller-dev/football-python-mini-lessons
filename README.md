@@ -1,26 +1,78 @@
-# Football Python Mini-Lessons
+# Football Analytics Python Mini-Lessons
 
-A set of Python mini-lessons designed for teaching fundamentals through football data.
+A Technical Training Portfolio by Benjamin Fuller
 
-# Python Mini-Lessons (Football Analytics)
 
-This repository contains beginner-friendly Python lessons built around a custom football dataset I designed for modelling xG, overperformance, defence strength, and recent form.
+# Purpose of This Repository
 
-These lessons are designed to demonstrate:
+This repository contains a series of mini Python lessons designed and delivered using a sports analytics context — specifically football (xG, overperformance, defensive metrics, form, and weighted ratings).
 
-- clear beginner teaching explanations
-- Python fundamentals (conditionals, functions, loops, lists)
-- real-world data logic from my football model
-- clean, structured code for technical training
+Each lesson teaches a core programming concept, paired with a real-world football metric, to make technical learning:
 
-## Planned Lessons
+- clear 
+- engaing
+- meaningful
+- practically applicable
 
-1. xG Battle — Conditionals  
-2. xG Overperformance — Functions  
-3. Defence Thresholds — Comparisons & Lists  
-4. 6-Game Rolling Form — Loops & Slicing  
-5. Weighted Team Rating Model — Mini Project  
-6. SQL Examples — Basic Queries  
-7. Prediction Function — TypeScript Version  
+This repo also serves as part of my professional portfolio as I transition into technical training and L&D roles within tech, combining:
 
-This repository is actively being developed as I complete new lessons and build out the full teaching portfolio.
+10+ years of teaching & curriculum design
+Python programming
+data modelling
+sports analytics
+explainability and structured training design
+
+# Why Football Analytics? (My Training Approach)
+
+Football data provides an ideal environment for teaching programming:
+
+- Why Football Analytics? (My Training Approach)
+- Football data provides an ideal environment for teaching programming:
+- It is numeric, structured, and rule-based
+- It naturally aligns with conditionals, functions, loops, feature engineering, and evaluation logic
+- Most learners find sports context engaging and accessible
+- It mirrors many principles used in AI/ML pipelines:
+  
+      - engineered features
+      - thresholds
+      - weighted scoring
+      - encoded outcomes (-1, 0, 1)
+      - rolling averages
+      - decision rules
+  
+This makes football performance data a powerful vehicle for teaching both:
+- fundamental Python skills
+- real modelling logic used in AI systems
+
+# Lesson Structure
+every lesson follows a consistent pattern:
+- A real football metric (xG battle, overperformance, defence strength, form, ratings)
+- A Python concept (conditionals, functions, loops, dictionaries, slicing, weighting)
+- A working .py file
+- A teaching-oriented README.md
+
+Repository Overview
+
+football-python-mini-lessons/
+│
+├── lesson01_xg_battle/
+│     ├── README.md
+│     └── xg_battle.py
+│
+├── lesson02_xg_overperformance/
+│     ├── (coming soon)
+│
+├── lesson03_defence_strength/
+│     ├── (coming soon)
+│
+├── lesson04_form_rolling_average/
+│     ├── (coming soon)
+│
+├── lesson05_weighted_team_rating/
+│     ├── (coming soon)
+│
+├── lesson06_sql_basics/
+│     ├── (coming soon)
+│
+└── lesson07_prediction_typescript/
+      ├── (coming soon)
