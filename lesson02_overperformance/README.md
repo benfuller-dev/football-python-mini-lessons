@@ -72,6 +72,8 @@ def xg_overperformance(goals, xg, tolerance=0.25):
     else:
         return -1
 
+Example test cases
+
 print(xg_overperformance(2.0, 1.7))    # 1
 print(xg_overperformance(1.0, 1.0))    # 0
 print(xg_overperformance(0.8, 1.3))    # -1
@@ -82,6 +84,8 @@ I frame the function as a translation of a real football performance concept int
 I highlight how tolerance prevents misclassification, and why the numeric return values (-1, 0, 1) are ideal for modelling.
 I guide learners through parameters and return values using the PiLORS framework so they can clearly see the structure.
 Finally, I show how this function can feed into larger analytics workflows like rolling form, slicing averages, and weighted models.
+
+Files in This Lesson
 
 | File                    | Purpose                                                   |
 | ----------------------- | --------------------------------------------------------- |
