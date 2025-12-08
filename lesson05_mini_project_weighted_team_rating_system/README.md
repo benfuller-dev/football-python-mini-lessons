@@ -92,6 +92,8 @@ def team_rating(xg_battle, overperf, defence, form,
 
     return round(rating, 3)
 
+Example Test Cases
+
 # Example 1 — Balanced team
 print(team_rating(
     xg_battle=1, overperf=0, defence=0, form=0.2
@@ -111,6 +113,8 @@ print(team_rating(
     xg_battle=-1, overperf=-1, defence=-1, form=-0.3
 ))
 # Possible output: -0.72
+
+You can encourage learners to play with weights to see how model behaviour changes.
 
 How You Would Teach This
 
