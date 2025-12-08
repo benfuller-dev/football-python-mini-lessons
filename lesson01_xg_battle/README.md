@@ -72,6 +72,7 @@ def xg_battle(team_xg, opp_xg, tolerance=0.25):
         return -1
 
 Example Test Cases
+
 print(xg_battle(0.67, 1.6))   # -1 (clear loss)
 print(xg_battle(1.8, 0.4))    # 1  (clear win)
 print(xg_battle(0.96, 1.1))   # 0  (equal within tolerance)
@@ -84,6 +85,8 @@ You would explain that conditionals allow us to encode decision rules exactly as
 Learners see how the tolerance prevents overreacting to small differences, and how the numeric encoding (-1, 0, 1) supports modelling later.
 You would walk learners through each condition, helping them understand why the order matters and how Python evaluates each branch.
 This lesson sets the foundation for overperformance scoring, defence classification, form tracking, and the final rating model built in later lessons.
+
+Files in This Lesson
 
 | File           | Purpose                                                   |
 | -------------- | --------------------------------------------------------- |
