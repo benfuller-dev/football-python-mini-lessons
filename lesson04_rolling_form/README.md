@@ -79,6 +79,8 @@ def rolling_form(values):
     
     return average
 
+Example Test Cases
+
 # Example 1 — Mixed results
 matches = [1, 0, -1, 1, 1, 0, -1, 1]
 print(rolling_form(matches))
@@ -103,6 +105,8 @@ You would explain that rolling form is one of the most intuitive analytics conce
 Once learners see that values[-6:] pulls out the recent matches, they immediately understand how slicing works.
 From there, averaging teaches loops, sum(), and basic numerical reasoning.
 This lesson reinforces the idea of turning many match results into one meaningful number, preparing learners for weighting, modelling, and prediction later in the course.
+
+Files in This Lesson
 
 | File              | Purpose                                                 |
 | ----------------- | ------------------------------------------------------- |
